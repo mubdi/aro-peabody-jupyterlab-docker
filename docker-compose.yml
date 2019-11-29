@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  aro-jupyterlab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - /scratch:/scratch
