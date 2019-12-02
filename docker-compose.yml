@@ -5,7 +5,7 @@ services:
     build: .
     container_name: aro_jupyterlab
     env_file: 
-      - /home/jovyan/etc/jupyter/jupyter.env
+      - /home/arofrb/etc/jupyter/jupyter.env
     environment: 
       - NB_USER=jovyan
     ports:
